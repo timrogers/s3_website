@@ -21,6 +21,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'configure-s3-website', '= 2.3.0'
   s.add_dependency 'colored', '1.2'
   s.add_dependency 'dotenv', '~> 1.0'
+  s.add_dependency 'open-uri', '~> 0.1.0'
 
   s.add_development_dependency 'rake', '10.1.1'
   s.add_development_dependency 'octokit', '3.1.0'
